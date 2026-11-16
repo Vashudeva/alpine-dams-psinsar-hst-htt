@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.9
+pyproj>=3.5
+pyshp>=2.3      # only for scripts/prepare_ps_tables.py
+pytest>=7.0     # tests

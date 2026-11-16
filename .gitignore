@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Third-party environmental records: never commit (see data/environment/README.md)
+data/environment/*
+!data/environment/README.md
+
+# Original SARscape products and large files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.tif
+raw/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
